@@ -1,0 +1,68 @@
+.a{
+  background-color: orange
+}
+
+.div1 {
+  background-color: aqua;
+  text-align: center;
+  margin: 2px;
+  border: none;
+  padding: 10px 10px;
+}
+.box {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid gainsboro;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 40px 0;
+  text-align: left;
+}
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: white;
+}
+ta {
+ 
+  text-align: center;
+  margin: 2px;
+  border: none;
+  padding: 10px 10px;
+}
+img{
+    border: 1px solid rgb(157, 155, 155);
+    padding-right: 1200px;
+    margin: 1px;
+}
+
+tr:hover{
+    background-color: aqua;
+}
+
+.div2 {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid gainsboro;
+ 
+}
+
+.div3 {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  text-align: left;
+}
+.div4{
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  text-align: left;
+}
+
