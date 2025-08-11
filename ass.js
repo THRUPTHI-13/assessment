@@ -49,12 +49,12 @@ bt[0].addEventListener("click", () => {
 const col = document.getElementsByClassName("co");
 
 col[0].addEventListener("click", () => {
-  document.body.classList.toggle("a")
-//   if(document.body.style.backgroundColor==("white")){
-// document.body.style.backgroundColor=("chocolate")
-//   }
-//   else{
-//     document.body.style.backgroundColor=("white");
+  //document.body.classList.toggle("a")
+     if(document.body.style.backgroundColor==("white")){
+document.body.style.backgroundColor=("chocolate")
+  }
+  else{
+   document.body.style.backgroundColor=("white");
 
-//   }
+   }
 });
