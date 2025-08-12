@@ -15,22 +15,22 @@ const students = [
 //MAP Questions
 
 //1.
-/*students.map((el)=>{
+students.map((el)=>{
      const a= el.name;
     console.log(a);
 })
-*/
+
 
 //2.
-/*
+
 const d=students.map((el)=>{
     return `Name:${el.name} Course:${el.course}`;
 })
 console.log(d);
-*/
+
 
 //3.
-/*
+
 students.map((el)=>{
 if(el.marks>=60){
         el.status="Pass";
@@ -41,83 +41,83 @@ else{
 })
 console.log(students);
 
-*/
+
 //4.
-/*
+
 const h=students.map((el)=>{
     return `${el.name} -${el.course}`;
 
 })
 console.log(h);
-*/
+
 
 //5.
-/*
+
 students.map((el)=>{
        el.marks=el.marks +5;       
 });
 console.log(students);
-*/
+
 
 //FILTER Questions
 
 //1.
-/*
+
 let stdce=students.filter((el)=>el.course==="Computer Science");
 console.log(stdce);
-*/
+
 
 //2
-/*
+
 let stdmk=students.filter((el)=>el.marks>=80);
 console.log(stdmk);
-*/
+
 //3.
-/*
+
 let stdfee=students.filter((el)=>el.feesPaid==false);
 console.log(stdfee);
-*/
+
 
 //4.
-/*
+
 let stdaf=students.filter((el)=>el.age>20 && el.marks>70);
 console.log(stdaf);
-*/
+
 //5.
-/*
+
 let stdcrmk=students.filter((el)=>el.course=="Mechanical" && el.marks<85);
 console.log(stdcrmk);
-*/
+
 
 //REDUCE Questions
 //1.
-/*
+
 let totmak = students.reduce((acc, el) => {
   //console.log(acc ,cur,index);
   return acc + el.marks;
 }, 0);
 console.log(totmak);
-*/
+
 //2
-/*
+
 let avymk=students.reduce((acc,el)=>{
     //console.log(acc ,cur,index);
     return acc +el.marks;
     },0);
     console.log(avymk/10);
-    */
+    
     
     //3
-    /*
+    
 let fepd=students.filter((el)=>el.feesPaid==true) .reduce((acc)=>{
    
     return acc+1;
     },0);
     console.log(fepd);
-    */
+    
 
     //4
-    /*
+    
     let hmak=students.reduce((acc,el)=>{
          for(i=0;i<10;i++){
            if(`${el.marks}`>acc){
@@ -129,7 +129,7 @@ let fepd=students.filter((el)=>el.feesPaid==true) .reduce((acc)=>{
     },0);
     console.log(hmak);
     
-*/
+
     //5.
 const cor = students.reduce((clg, el) => {
   const crname = el.course;
