@@ -52,7 +52,7 @@ const col = document.getElementsByClassName("co");
 col[0].addEventListener("click", () => {
 //  document.body.classList.toggle("co")
      if(document.body.style.backgroundColor==("white")){
-document.body.style.backgroundColor=("chocolate")
+document.body.style.backgroundColor=("yellow")
   }
   else{
    document.body.style.backgroundColor=("white");
