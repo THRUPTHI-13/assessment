@@ -44,17 +44,19 @@ bt[0].addEventListener("click", () => {
   //  skli.textContent=input.value;
   lit.textContent = input.value;
   skli.appendChild(lit);
+  input.value=""
 });
 
 const col = document.getElementsByClassName("co");
 
 col[0].addEventListener("click", () => {
-  //document.body.classList.toggle("a")
+//  document.body.classList.toggle("co")
      if(document.body.style.backgroundColor==("white")){
 document.body.style.backgroundColor=("chocolate")
   }
   else{
    document.body.style.backgroundColor=("white");
 
-   }
+   
+}
 });
