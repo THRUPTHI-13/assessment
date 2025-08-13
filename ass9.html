@@ -9,14 +9,25 @@
     <h1>Image</h1>
    
     <script>
-      
-for(id=5;id<15;id++) {     
+   /*for(id=5;id<15;id++) {     
   const img=document.createElement("img");
-img.src="https://via.assets.so/movie.png?id=5&q=95&w=360&h=360&fit=fill";
+img.src=`https://via.assets.so/movie.png?id=5&q=95&w=360&h=360&fit=fill`;
 img.alt="image not found";
-
 img.height=250;
 img.width=250;
+img.id=id;
+img.style.border="2px solid black";
+img.style.margin="10px";
+img.style.padding="10px 10px";
+document.body.appendChild(img);
+
+}   */
+for(id=5;id<15;id++) {     
+  const img=document.createElement("img");
+img.src=`https://via.assets.so/movie.png?id=${id}&q=95&w=360&h=360&fit=fill`;
+img.alt="image not found";
+img.height=300;
+img.width=300;
 img.id=id;
 img.style.border="2px solid black";
 img.style.margin="10px";
