@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  
+  <style>
+    .hed{
+        background-color: aqua;
+  text-align: center;
+  margin: 2px;
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+
+    }
+    footer{
+        background-color: rgb(162, 153, 232);
+  text-align: center ;
+  margin: 2px;
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+    }
+    .cpy{
+        background-color: aliceblue;
+        text-align: center ;
+  margin: 2px;
+  border: none;
+  padding: 10px 10px;
+  font-size: 15px;
+    }
+  </style>
 <body>
-    <h1>Image</h1>
+    <div class="hed">Image</div>
+   <div id="imgu"></div>
+    <footer>
+        Name: Thrupthi Thrivikrama Kini<br>
+        Email.ID: thrupthikini13@gamil.com <br>
+        Contact:  8793668320 <br>
+        
+    </footer>
+    <div class="cpy">
+                Copyright@movie images LLP
+
+    </div>
    
     <script>
    /*for(id=5;id<15;id++) {     
@@ -22,6 +59,7 @@ img.style.padding="10px 10px";
 document.body.appendChild(img);
 
 }   */
+const s=document.getElementById("imgu");
 for(id=5;id<15;id++) {     
   const img=document.createElement("img");
 img.src=`https://via.assets.so/movie.png?id=${id}&q=95&w=360&h=360&fit=fill`;
@@ -32,7 +70,7 @@ img.id=id;
 img.style.border="2px solid black";
 img.style.margin="10px";
 img.style.padding="10px 10px";
-document.body.appendChild(img);
+s.appendChild(img);
 
 }
 
