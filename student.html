@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Data</title>
+    <script src="student.js" defer></script>
+
+    <style>
+        
+      .hed {
+        background-color: rgb(69, 196, 65);
+        padding: 20px 10px;
+        margin: 2px;
+        border: 2px solid rgb(11, 80, 11);
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 40px 0;
+        text-align: left;
+        border: 1px solid #ddd;
+        padding: 8px;
+
+      }
+      th,
+      td {
+        border: 2px solid black;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      tr:hover {
+        background-color: rgb(144, 221, 157);
+      }
+
+      .div2 {
+        margin: 15px;
+        padding: 20px;
+        border: 1px solid gainsboro;
+      }
+      button {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: green;
+        color: white;
+        padding: 8px 16px;
+        margin: 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .hed1{
+        background-color: rgb(69, 196, 65);
+        padding: 2px 1px;
+        border: none
+       
+      }
+.div3 {
+        margin: 15px;
+        padding: 20px;
+        border: 1px solid gainsboro;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="hed">
+      <h1>Student Management Assessment</h1>
+    </div>
+
+    <div class="div2">
+      <h1>Student List</h1>
+       <div class="hed1">  </div>
+      <div id="table"></div>
+    </div>
+
+    <div class="div3">
+        <h1>Action button</h1>
+               <div class="hed1">  </div>
+
+      <button id="bgcolor">Toggle Background Color</button>
+      <button id="hide">Hide/Show Table</button>
+      <button id="Age">Show Age > 20</button>
+      <button id="Sortn">Sort By name</button>
+
+      <button id="Reset">Reset</button>
+    </div>
+  </body>
+</html>
